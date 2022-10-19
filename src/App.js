@@ -1,5 +1,6 @@
 import logo from './Image/1560.png';
 import './App.css';
+import ToDo from './Components/ToDo';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
         <img src={logo} className="logo" alt='logo' />
       </div>
       <div className='to-do-maib-container'>
-        <h1>To-Do-List</h1>
+        <h1>List</h1>
         
       </div>
     </div>
