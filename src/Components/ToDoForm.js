@@ -8,7 +8,7 @@ function TodoForm (props){
 
     const handleChange = e =>{
         setInput(e.target.value);
-    }
+    };
     const handleSend = e =>{
         e.preventDefault();
         
@@ -18,8 +18,7 @@ function TodoForm (props){
            completed: false
         }
         props.onSubmit(newToDo);
-        setInput("");
-    }
+    };
     return (
         <form className='to-do-form'
         onSubmit={handleSend}>
