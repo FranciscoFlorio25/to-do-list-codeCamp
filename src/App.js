@@ -1,6 +1,6 @@
 import logo from './Image/1560.png';
 import './App.css';
-import ToDo from './Components/ToDo';
+import ToDoList from './Components/ToDoList';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       </div>
       <div className='to-do-maib-container'>
         <h1>List</h1>
-        
+        <ToDoList/>
       </div>
     </div>
   );
